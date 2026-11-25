@@ -1,0 +1,27 @@
+# Local Firebase configuration — never commit real project credentials
+google-services.json
+**/google-services.json
+GoogleService-Info.plist
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.key
+service-account*.json
+*-service-account*.json
+secrets/
+
+# Android / Gradle build output
+.gradle/
+**/build/
+local.properties
+*.iml
+.idea/
+.DS_Store
+
+# Signing material
+*.jks
+*.keystore
